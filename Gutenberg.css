@@ -1,0 +1,100 @@
+
+.title{
+
+  color:black;
+  text-align:center;
+  
+}
+
+h1{
+  
+  font-size:250% !important;
+  text-align:center;
+}
+
+h2{
+  
+  font-size:200%;
+  text-align:center;
+  font-style:italic;
+  
+}
+
+
+body{
+  
+  background:linear-gradient(45deg ,#C2C2C0 , #ECEDD5);
+  background:-moz-linear-gradient(45deg ,#C2C2C0 , #ECEDD5);
+  background:-p-linear-gradient( 45deg ,#C2C2C0 , #ECEDD5);
+  background:-webkit-linear-gradient( 45deg ,#C2C2C0 , #ECEDD5);
+  background-repeat:no-repeat;
+  
+}
+
+.pnext{
+  
+}
+
+p {
+  
+  color:black;
+  font-size:1.1em;
+  line-height:210%;
+  
+}
+
+.pfirst::first-letter{
+  
+  font-size:200%;
+  font-weight:700;
+  
+}
+
+.title::first-letter{
+  
+  font-size:100% !important;
+  
+}
+
+.noindent::first-letter{
+  
+  font-size:100% !important;
+  
+}
+
+pre{
+  
+  margin-left:5%;
+  font-style:italic;
+}
+
+
+p{
+  
+  padding-right:1em;
+  padding-left:1em;
+  
+}
+
+h1:not::first-letter{
+  
+  font-size:150%;
+  
+}
+
+
+
+p:hover{
+  font-size:125%;
+  background:#F4F5E4;
+  
+  
+}
+
+.header, center{
+  
+  font-weight:600;
+  font-size:150%;
+  text-align:center;
+  
+}
